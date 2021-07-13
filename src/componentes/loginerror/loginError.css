@@ -1,0 +1,87 @@
+.main-error{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E5E5;
+}
+.error-container{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    background-color: #fff;
+    padding: 50px;
+    padding-left: 20px;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.candadoError{
+    width: 252px;
+}
+.error-message-resp{
+    display: none;
+}
+.error-message{
+    letter-spacing: 0.15px;
+    color: #333333;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 30px;    
+}
+.error-message2{
+  color: #333333; 
+  letter-spacing: 0.15px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+@media (max-width: 750px){
+    .error-container{
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+        margin: 0px;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 10vh;
+        text-align: center;
+    }
+    .error-message{
+        display: none;
+    }
+    .error-message-resp{
+        display: block;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.15px;
+        color: #333333;
+    }
+    .error-message2{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.15px;
+        color: #333333;
+        width: 70%;
+        justify-self: center;
+        margin: auto;
+    }
+}

@@ -1,0 +1,149 @@
+.main-playlist{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 0px;
+    background-color: #E5E5E5;
+}
+td{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+}
+.fa-thumbs-down{
+    margin: 5px;
+    font-size: 20px;
+}
+
+.fa-thumbs-up{
+    margin: 5px;
+    font-size: 20px;
+}
+.fas:hover{
+    color: cadetblue;
+    cursor: pointer;
+    
+}
+
+.search-box{
+    background-color: #fff;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 2px;
+    height: 6vh;
+    width: 45%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+.search-input{
+    outline: none;
+    border: none;
+    color: #333333;
+    letter-spacing: 0.15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 15px;
+    width: 100%;
+}
+.fa-search{
+    padding-left: 10px;
+}
+
+.resultados-box{
+    min-height: 20vh;
+    background-color: #fff;
+    width: 90%;
+    margin: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resultado{
+    height: 80%;
+    width: 90%;
+}
+.playlist-content{
+    height: 80%;
+    width: 90%;
+}
+.playlist-box{
+    min-height: 50vh;
+    background-color: #fff;
+    width: 90%;
+    margin: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table-title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.15px;
+    color: #009688;
+    margin: 0px;
+}
+
+table{
+    width: 100%;
+}
+tbody{
+    width: 100%;
+}
+th{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.15px;
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: bold;
+}
+
+th{
+    width: 20%;
+    text-align: start;
+    border-bottom: 2px solid #E5E5E5;
+}
+
+@media (max-width: 750px){
+    .main-playlist{
+        background-color: #fff;
+
+    }
+    .search-box{
+        width: 85%;
+    }
+    .noResp{
+        display: none;
+    }
+    .resultados-box{
+        margin: 0px;
+    }
+    .playlist-box{
+        margin: 0px;
+    }
+    .table-title{
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.15px;
+    }
+    th{
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.15px;
+        font-weight: bold;
+    }
+}
